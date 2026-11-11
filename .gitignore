@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Secrets
+.env*
+*.key
+*.pem
+
+# Screen data is private: captures, logs, event dumps never go to git
+data/
+logs/
+*.log
+*.png
+*.jpg
+*.jsonl
